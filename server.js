@@ -11,7 +11,7 @@ const app = express()
 const mongoose = require('mongoose');
 const initMongo = require('./config/mongo')
 const path = require('path')
-const hostname = '127.0.0.1';
+const hostname = '0.0.0.0';
 
 //Import routes
 const projectsRoute = require('./routes/projects');
